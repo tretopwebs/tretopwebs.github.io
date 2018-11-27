@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Tretop Enterprise",
-    "currentPage": "index.html",
+    "currentPage": "galeri.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,14 +46,18 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-129802648-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-129802648-1');\r\n</script>\r\n\r\n\r\n",
     "cookiesAlert": "",
     "gdpr": "",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "global-footer": "",
+    "html_before": "{\r\n  \"@context\": \"http://schema.org\",\r\n  \"@type\": \"Corporation\",\r\n  \"name\": \"Tretop Enterprise\",\r\n  \"url\": \"https://www.tretop.net\",\r\n  \"contactPoint\": [\r\n    { \"@type\": \"ContactPoint\",\r\n      \"telephone\": \"+60189553554\",\r\n      \"contactType\": \"customer service\"\r\n    }\r\n  ]\r\n}",
+    "headbody": "",
+    "botbody": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "Perkhidmatan Pembuatan Table Top",
+        "title": "Tretop Enterprise",
+        "meta_descr": "Laman Web Rasmi Perkhidmatan Pembuatan Table Top Konkrit Tretop   Enterprise",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -947,7 +951,7 @@
     },
     "galeri.html": {
       "settings": {
-        "meta_descr": "Gambar Hasil Kerja Tretop",
+        "meta_descr": "Gambar Hasil Kerja Perkhidmatan Tretop Enterprise Yang Dilengkapi Dengan Pilihan Shape",
         "title": "Galery",
         "order": 1
       },
@@ -1349,7 +1353,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-sampel-4-transparant-122x61.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">PAKAR TABLE TOP</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\">\n                    <a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">\n                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>Menu</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"galeri.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Galeri</a><a class=\"text-white dropdown-item\" href=\"harga.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Tanya Harga</a><a class=\"text-white dropdown-item\" href=\"tips.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Tips &amp; Info</a><a class=\"text-white dropdown-item\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Mengenai Kami</a><a class=\"text-white dropdown-item\" href=\"faq.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Soalan Lazim</a><a class=\"text-white dropdown-item\" href=\"mozek.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Mozek</a></div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"channel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(204, 20, 20);\"></span>Channel</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tempah.html\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>Tempah Sekarang</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-sampel-4-transparant-122x61.png\" alt=\"Logo Official Tretop Enterprise\" mbr-style=\"{'height': logoSize + 'rem'}\" title=\"Logo Official Tretop Enterprise\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Text\">PAKAR TABLE TOP</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\">\n                    <a class=\"nav-link link text-white dropdown-toggle\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">\n                        <span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>Menu</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"galeri.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Galeri</a><a class=\"text-white dropdown-item\" href=\"harga.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Tanya Harga</a><a class=\"text-white dropdown-item\" href=\"tips.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Tips &amp; Info</a><a class=\"text-white dropdown-item\" href=\"about.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Mengenai Kami</a><a class=\"text-white dropdown-item\" href=\"faq.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Soalan Lazim</a><a class=\"text-white dropdown-item\" href=\"mozek.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Mozek</a></div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"channel.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-youtube mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(204, 20, 20);\"></span>Channel</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"tempah.html\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>Tempah Sekarang</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "r9OYgDghwc",
           "_anchor": "menu1-3",
           "_protectedParams": [],
@@ -1493,8 +1497,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-1-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-1-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape",
+                "title": "Tretop Tabletop L Shape",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1506,8 +1510,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-7-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-7-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 2",
+                "title": "Tretop Tabletop L Shape 2",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1519,8 +1523,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-8-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-8-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 3",
+                "title": "Tretop Tabletop L Shape 3",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1532,8 +1536,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-10-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-10-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 4",
+                "title": "Tretop Tabletop L Shape 4",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1545,8 +1549,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-19-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-19-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 5",
+                "title": "Tretop Tabletop L Shape 5",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1558,8 +1562,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-21-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-21-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 6",
+                "title": "Tretop Tabletop L Shape 6",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1571,8 +1575,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-0034-1-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-0034-1-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 7",
+                "title": "Tretop Tabletop L Shape 7",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1584,8 +1588,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-68-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-68-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 8",
+                "title": "Tretop Tabletop L Shape 8",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1597,8 +1601,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-80-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-80-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 9",
+                "title": "Tretop Tabletop L Shape 9",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1610,8 +1614,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-92-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-92-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 10",
+                "title": "Tretop Tabletop L Shape 10",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1623,8 +1627,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-114-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-114-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 11",
+                "title": "Tretop Tabletop L Shape 11",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1636,8 +1640,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-0118-8-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-0118-8-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 12",
+                "title": "Tretop Tabletop L Shape 12",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1649,8 +1653,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-123-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-123-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 13",
+                "title": "Tretop Tabletop L Shape 13",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1662,8 +1666,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-146-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-146-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 14",
+                "title": "Tretop Tabletop L Shape 14",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
                 "active": false
@@ -1675,11 +1679,11 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-169-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-169-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 16",
+                "title": "Tretop Tabletop L Shape 16",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -1688,11 +1692,11 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-148-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-148-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop L Shape 17",
+                "title": "Tretop Tabletop L Shape 17",
                 "customStyle1": "display-7",
                 "caption": "Table Top L Shape",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -1811,8 +1815,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-2-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-2-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 1",
+                "title": "Tretop Tabletop U Shape 1",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1824,8 +1828,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-726-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-726-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 2",
+                "title": "Tretop Tabletop U Shape 2",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1837,8 +1841,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-332-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-332-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 3",
+                "title": "Tretop Tabletop U Shape 3",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1850,8 +1854,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-897-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-897-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 4",
+                "title": "Tretop Tabletop U Shape 4",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1863,8 +1867,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-900-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-900-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 5",
+                "title": "Tretop Tabletop U Shape 5",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1876,8 +1880,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-1216-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-1216-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 6",
+                "title": "Tretop Tabletop U Shape 6",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1889,8 +1893,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-4-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-4-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 7",
+                "title": "Tretop Tabletop U Shape 7",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": false
@@ -1902,8 +1906,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-20161029-224158-wm-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-20161029-224158-wm-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop U Shape 8",
+                "title": "Tretop Tabletop U Shape 8",
                 "customStyle1": "display-7",
                 "caption": "Table Top U Shape",
                 "active": true
@@ -2025,8 +2029,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-57-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-57-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 1",
+                "title": "Tretop Tabletop i Shape 1",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2038,8 +2042,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-0118-7-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-0118-7-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 2",
+                "title": "Tretop Tabletop i Shape 2",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2051,8 +2055,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-179-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-179-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 3",
+                "title": "Tretop Tabletop i Shape 3",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2064,8 +2068,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-187-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-187-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 4",
+                "title": "Tretop Tabletop i Shape 4",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2077,8 +2081,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-195-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-195-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 5",
+                "title": "Tretop Tabletop i Shape 5",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2090,8 +2094,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-205-1500x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-205-1500x1000-800x533.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 6",
+                "title": "Tretop Tabletop i Shape 6",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2103,8 +2107,8 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-232-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-232-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 7",
+                "title": "Tretop Tabletop i Shape 7",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
                 "active": false
@@ -2116,11 +2120,11 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/dsc-247-1496x1000.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/dsc-247-1496x1000-800x535.jpg",
-                "alt": "",
-                "title": "",
+                "alt": "Tretop Tabletop i Shape 8",
+                "title": "Tretop Tabletop i Shape 8",
                 "customStyle1": "display-7",
                 "caption": "Table Top i Shape",
-                "active": false
+                "active": true
               }
             ]
           }
@@ -2212,7 +2216,7 @@
             }
           },
           "_name": "features11",
-          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"50\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/23755523-716985965177582-682830691851532292-n-952x568.jpg\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">TAHUKAH ANDA?</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">\n                        Tukang Table Top memang banyak, tapi ada point penting yang perlu anda tahu supaya anda tidak salah pilih dan tertipu oleh harga yang rendah. \"Murah\" Tak Bermakna \"Bagus\".\n                        </p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        \n                                    <div><br></div><div>Kemasan Pada Hasil Yang Dibuat\n</div><div><br></div></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                   Adakah anda perhatikan kemasan table top yang di buat oleh pembuat table top yang lain selain kami? \n                                </p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        \n                                    <div><br></div><div>Layout dan Penyesuaian\n</div><div><br></div></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                    Jangan lupa! Bukan cuma Table Top sahaja yang ada didapur anda. Selalu ada barang lain yang diletak seperti Sinki, Rak Pinggan, Dapur Gas dan sebagainya. Adakah Table Top yang lain sudah sesuai dengan layout dapur anda?\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
+          "_customHTML": "<section class=\"features11\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text Header\" name=\"showTextHead\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"80\" step=\"5\" value=\"50\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#f9f9f9\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">   \n        <div class=\"col-md-12\">\n            <div class=\"media-container-row\">\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/23755523-716985965177582-682830691851532292-n-952x568.jpg\" alt=\"Sinki Tretop Enterprise\" title=\"Sinki Tretop Enterprise\">\n                </div>\n                <div class=\" align-left aside-content\">\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">TAHUKAH ANDA?</h2>\n                    <div class=\"mbr-section-text\">\n                        <p class=\"mbr-text mb-5 pt-3 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">\n                        Tukang Table Top memang banyak, tapi ada point penting yang perlu anda tahu supaya anda tidak salah pilih dan tertipu oleh harga yang rendah. \"Murah\" Tak Bermakna \"Bagus\".\n                        </p>\n                    </div>\n\n                    <div class=\"block-content\" mbr-if=\"showTextHead||showText||showIcons\">\n                        <div class=\"card p-3 pr-3\">\n                            <div class=\"media\">\n                                <div class=\" align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-extension mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        \n                                    <div><br></div><div>Kemasan Pada Hasil Yang Dibuat\n</div><div><br></div></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                   Adakah anda perhatikan kemasan table top yang di buat oleh pembuat table top yang lain selain kami? \n                                </p>\n                            </div>\n                        </div>\n\n                        <div class=\"card p-3 pr-3\" mbr-if=\"cardsAmount > 1\">\n                            <div class=\"media\">\n                                <div class=\"align-self-center card-img pb-3\" mbr-if=\"showIcons\">\n                                    <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                                </div>     \n                                <div class=\"media-body\">\n                                    <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTextHead\">\n                                        \n                                    <div><br></div><div>Layout dan Penyesuaian\n</div><div><br></div></h4>\n                                </div>\n                            </div>                \n\n                            <div class=\"card-box\">\n                                <p class=\"block-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                    Jangan lupa! Bukan cuma Table Top sahaja yang ada didapur anda. Selalu ada barang lain yang diletak seperti Sinki, Rak Pinggan, Dapur Gas dan sebagainya. Adakah Table Top yang lain sudah sesuai dengan layout dapur anda?\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div> \n    </div>          \n</section>",
           "_cid": "r9Pvp07HKU",
           "_anchor": "features11-s",
           "_protectedParams": [],
@@ -2318,7 +2322,7 @@
             }
           },
           "_name": "features18",
-          "_customHTML": "<section class=\"features18 popup-btn-cards\" group=\"Animated Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Card Background\" name=\"bgCard\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Pelajari lebih lanjut mengenai Kualiti Table Top</h2>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Murah sememangnya pilihan utama. Tapi Kualiti juga harus diperhatikan.</h3>\n        <div class=\"media-container-row pt-5 \" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper \">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"tips.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Pelajari Lebih Lanjut</a></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/20180908-213641-copy-2-676x507.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Tidak Terasa Tajam</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Gunakan hujung jari anda, raba Setiap Penjuru Mozek, Tepi Mozek, dan Atas Mozek yang sudah dipotong dan dipasang di Table Top anda, adakah terasa tajam atau tidak.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"tips.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Pelajari Lebih Lanjut</a></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/dsc-96-676x507.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Ukuran Tepat</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Cek semula design awal Table Top anda dan lihat setiap Mozek yang sudah dipasang. Gunakanlah ketelitian anda ketika mengecek, adakah lurus atau tidak, ukuran sama atau tidak, tepat atau tidak.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"tips.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Pelajari Lebih Lanjut</a></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/dsc-206-676x507.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Kukuh dan Tahan Lama</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Gunakan tangan anda dan ketuk Mozek yang sudah dipasang di Table Top anda. Adakah bunyinya sama? Adakah anda merasa ada ruang udara disebalik Mozek yang sudah dipasang di table top anda?\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a href=\"https://mobirise.com\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features18 popup-btn-cards\" group=\"Animated Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Card Background\" name=\"bgCard\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Pelajari lebih lanjut mengenai Kualiti Table Top</h2>\n        <h3 class=\"mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Murah sememangnya pilihan utama. Tapi Kualiti juga harus diperhatikan.</h3>\n        <div class=\"media-container-row pt-5 \" mbr-cards=\"bootstrap\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper \">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"tips.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Pelajari Lebih Lanjut</a></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/20180908-213641-copy-2-676x507.jpg\" alt=\"Kelengkungan Tabletop Tretop Enterprise\" title=\"Kelengkungan Tabletop Tretop Enterprise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Tidak Terasa Tajam</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Gunakan hujung jari anda, raba Setiap Penjuru Mozek, Tepi Mozek, dan Atas Mozek yang sudah dipotong dan dipasang di Table Top anda, adakah terasa tajam atau tidak.\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"tips.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Pelajari Lebih Lanjut</a></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/dsc-96-676x507.jpg\" alt=\"Pemasangan Lurus Tabletop Tretop Enterprise\" title=\"Pemasangan Lurus Tabletop Tretop Enterprise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Ukuran Tepat</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Cek semula design awal Table Top anda dan lihat setiap Mozek yang sudah dipasang. Gunakanlah ketelitian anda ketika mengecek, adakah lurus atau tidak, ukuran sama atau tidak, tepat atau tidak.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\"><a href=\"tips.html\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Pelajari Lebih Lanjut</a></div>\n                        <img src=\"@PROJECT_PATH@/assets/images/dsc-206-676x507.jpg\" alt=\"Pemasangan Tepat Tabletop Tretop Enterprise\" title=\"Pemasangan Tepat Tabletop Tretop Enterprise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">Kukuh dan Tahan Lama</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                            Gunakan tangan anda dan ketuk Mozek yang sudah dipasang di Table Top anda. Adakah bunyinya sama? Adakah anda merasa ada ruang udara disebalik Mozek yang sudah dipasang di table top anda?\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <div class=\"mbr-overlay\"></div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a href=\"https://mobirise.com\" class=\"btn btn-primary\">Learn More</a>\n                        </div>\n                        <img src=\"../_images/img/01.jpg\" alt=\"Mobirise\">\n                    </div>\n                    <div class=\"card-box\" mbr-if=\"showText || showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showCardTitle\" data-app-selector=\".card-title\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r9Pw0DCSlZ",
           "_anchor": "features18-t",
           "_protectedParams": [],
@@ -2400,7 +2404,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-sampel-4-transparant-192x96.png\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">LOT 110224 / B, TINGKAT BAWAH, JALAN PERMATANG BADAK MAJU,\n<br>BUKIT RANGIN, 25150 KUANTAN, PAHANG DARUL MAKMUR\n<br>MALAYSIA</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">Email: eddytukang@gmail.com\n<br>Phone: 018-955 3554\n<br>Showroom: 014-312 5988&nbsp;</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\"><a class=\"text-secondary\" href=\"galeri.html\">Gallery</a>&nbsp;<br><a class=\"text-secondary\" href=\"mozek.html\">Mozek</a>&nbsp;<br><a class=\"text-secondary\" href=\"term.html\">Terma Dan Syarat</a></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2018-2019 TRETOP Enterprise - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"mailto:eddytukang@gmail.com\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-mail socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/edddy85/?ref=br_rs\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UCnhZ167NQI4BhVs8TO5SksQ\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-sampel-4-transparant-192x96.png\" alt=\"Logo Rasmi Tretop Enterprise\" title=\"Logo Rasmi Tretop Enterprise\">\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">LOT 110224 / B, TINGKAT BAWAH, JALAN PERMATANG BADAK MAJU,\n<br>BUKIT RANGIN, 25150 KUANTAN, PAHANG DARUL MAKMUR\n<br>MALAYSIA</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">Email: eddytukang@gmail.com\n<br>Phone: 018-955 3554\n<br>Showroom: 014-312 5988&nbsp;</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\"><a class=\"text-secondary\" href=\"galeri.html\">Gallery</a>&nbsp;<br><a class=\"text-secondary\" href=\"mozek.html\">Mozek</a>&nbsp;<br><a class=\"text-secondary\" href=\"term.html\">Terma Dan Syarat</a></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2018-2019 TRETOP Enterprise - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"mailto:eddytukang@gmail.com\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-mail socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/edddy85/?ref=br_rs\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/channel/UCnhZ167NQI4BhVs8TO5SksQ\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "footer1-v",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2414,7 +2418,7 @@
     },
     "tempah.html": {
       "settings": {
-        "meta_descr": "Tempah Perkhidmatan",
+        "meta_descr": "Tempah Perkhidmatan Dari Tretop Enterprise Melalui Laman Web Rasmi",
         "title": "Tempah",
         "order": 2
       },
@@ -2963,7 +2967,7 @@
     },
     "tips.html": {
       "settings": {
-        "meta_descr": "Pelajari Tentang Table Top",
+        "meta_descr": "Pelajari Tentang Table Top Dari Situs Rasmi Syarikat Tretop Enterprise ",
         "title": "Tips Dan Info",
         "order": 4
       },
@@ -4160,7 +4164,7 @@
     },
     "about.html": {
       "settings": {
-        "meta_descr": "Mengenai Tretop Enterprise",
+        "meta_descr": "Sejarah Dan Timeline Mengenai Perkhidmatan Syarikat Tretop Enterprise ",
         "title": "Mengenai Kami",
         "order": 5
       },
@@ -4734,7 +4738,7 @@
     },
     "faq.html": {
       "settings": {
-        "meta_descr": "Soalan Lazim",
+        "meta_descr": "Soalan Yang Lazim Ditanyakan Oleh Customer Yang Menggunakan Perkhidmatan Tretop Enterprise",
         "title": "FAQ",
         "order": 6
       },
@@ -5357,7 +5361,7 @@
     },
     "harga.html": {
       "settings": {
-        "meta_descr": "Harga Barang Dan Perkhidmatan",
+        "meta_descr": "Harga Barang Dan Perkhidmatan Dari Tretop Enterprise Yang Dilengkapi Dengan Harga Pakej",
         "title": "Harga",
         "order": 7
       },
@@ -6068,7 +6072,7 @@
     },
     "mozek.html": {
       "settings": {
-        "meta_descr": "Pilihan Mozek",
+        "meta_descr": "Pilihan Mozek Yang Disediakan Di Showroom Tretop Enterprise Dan Di Paparkan Di Website",
         "title": "Mozek",
         "order": 8
       },
@@ -7010,7 +7014,7 @@
     },
     "term.html": {
       "settings": {
-        "meta_descr": "Terma dan Syarat Perkhidmatan",
+        "meta_descr": "Terma dan Syarat Perkhidmatan Yang Harus Dipatuhi Sebelum Menempah Perkhidmatan Tretop Enterprise",
         "title": "Terma dan Syarat",
         "order": 9
       },
@@ -7824,7 +7828,7 @@
     },
     "channel.html": {
       "settings": {
-        "meta_descr": "Koleksi Video",
+        "meta_descr": "Koleksi Video Dari Tretop Enterprise Terlengkap Yang DiUpdate Dari Masa Ke Semasa",
         "title": "Channel",
         "order": 3
       },
