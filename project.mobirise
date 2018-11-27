@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Tretop Enterprise",
-    "currentPage": "galeri.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -43,12 +43,12 @@
     "sitemapSwitcherAuto": "on",
     "favicon": "@PROJECT_PATH@/assets/images/logo-sampel-2-a-128x128.png",
     "noImageResize": "",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-129802648-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-129802648-1');\r\n</script>\r\n\r\n\r\n",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-129802648-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-129802648-1');\r\n</script>\r\n\r\n\r\n{\r\n  \"@context\": \"http://schema.org\",\r\n  \"@type\": \"Corporation\",\r\n  \"name\": \"Tretop Enterprise\",\r\n  \"url\": \"https://www.tretop.net\",\r\n  \"contactPoint\": [\r\n    { \"@type\": \"ContactPoint\",\r\n      \"telephone\": \"+60189553554\",\r\n      \"contactType\": \"customer service\"\r\n    }\r\n  ]\r\n}\r\n\r\n",
     "cookiesAlert": "",
     "gdpr": "",
     "sitemapSwitcher": "on",
     "global-footer": "",
-    "html_before": "{\r\n  \"@context\": \"http://schema.org\",\r\n  \"@type\": \"Corporation\",\r\n  \"name\": \"Tretop Enterprise\",\r\n  \"url\": \"https://www.tretop.net\",\r\n  \"contactPoint\": [\r\n    { \"@type\": \"ContactPoint\",\r\n      \"telephone\": \"+60189553554\",\r\n      \"contactType\": \"customer service\"\r\n    }\r\n  ]\r\n}",
+    "html_before": "",
     "headbody": "",
     "botbody": ""
   },
